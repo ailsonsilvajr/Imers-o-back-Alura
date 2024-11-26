@@ -9,7 +9,7 @@ export async function getTodosPosts() {
     const colecao = db.collection("posts")
     return colecao.find().toArray()
 }
-
+//comentanto o código pra fazer novo commit
 export async function criarPost(novoPost) {
     const db = conexao.db("imersao-back")
     const colecao = db.collection("posts")
